@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: 100vh;
+}
+.card {
+    width: 40%;
+    background-color: orange;
+    padding: 30px;
+    text-align: center;
+
+}
+@media (min-width: 325px) and (max-width: 480px){
+    .card {
+        width: 90%;
+        background-color: red;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){
+    .card {
+        width: 70%;
+        background-color: red;
+    }
+}
+@media (min-width: 768px) and (max-width: above){
+    .card {
+        width: 70%;
+        background-color: red;
+}
+}
